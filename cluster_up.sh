@@ -46,7 +46,7 @@ echo "done."
 
 echo "Getting Jenkins artifacts"
 if [ ! -d continuous-deployment-on-kubernetes ]; then
-  git clone -b v1 https://github.com/GoogleCloudPlatform/continuous-deployment-on-kubernetes.git
+  git clone -b jenkins-2.67 https://github.com/GoogleCloudPlatform/continuous-deployment-on-kubernetes.git
 fi
 
 echo "Deploying Jenkins to Google Container Engine..."
