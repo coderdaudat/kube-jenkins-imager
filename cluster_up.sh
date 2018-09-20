@@ -21,7 +21,7 @@ CLUSTER_NAME=${1-imager}
 NUM_NODES=3
 MACHINE_TYPE=n1-standard-1
 NETWORK=default
-ZONE=us-central1-f
+ZONE=asia-southeast1-a
 
 # Source the config
 . images.cfg
